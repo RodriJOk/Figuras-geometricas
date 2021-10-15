@@ -1,0 +1,74 @@
+*{
+    background-color: #273640;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.header-title{
+    text-decoration: underline;
+}
+
+.header-subtitle{
+    margin: 20px 0px 50px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 0 auto;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    height: 300px;
+}
+
+.card-title{
+    text-decoration: underline;
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.card-container-input{
+    height: 170px;
+}
+
+.card-container-input input{
+    border: none;
+    border-bottom: 1px solid #384f55;
+    margin: 5px 10px;
+}
+
+.card-container-input input::placeholder{
+    color: #9CA1A6;
+}
+
+.card-container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.card-container-button button{
+    text-align: center;
+    width: 90px;
+    border-radius: 15px;
+    border: 2px solid #4F6C73;
+}

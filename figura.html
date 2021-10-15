@@ -4,11 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figuras</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Figuras geometricas</title>
 </head>
 <body>
-    <h1>Figuras geometricas</h1>
+    <header class="header">
+        <h1 class="header-title">Figuras geometricas</h1>
+        <p class="header-subtitle">A continuacion, pon las medidas de las figuras geometricas que desees saber su perimetro y tambien su area. </p>
+    </header>
+    <div class="container">
+        <section class="card">
+            <h2 class="card-title">Cuadrado</h2>
+            <form class="card-form">
+                <div class="card-container-input">
+                    <label form="InputCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
+                    <input id="InputCuadrado" type="number" placeholder="Lado"/>
+                </div>
+                <div class="card-container-button">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Perimetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Area</button>
+                </div>
+            </form>
+        </section>
+        <section class="card">
+            <h2 class="card-title">Triangulo</h2>
+            <form class="card-form">
+                <div class="card-container-input">
+                    <label form="InputTriangulo">Escribe cuanto mide cada lado de tu triangulo:</label>
+                    <input id="LadoATriangulo" type="number" placeholder="Lado A"/>
+                    <input id="LadoBTriangulo" type="number" placeholder="Lado B"/>
+                    <input id="BaseTriangulo" type="number" placeholder="Base"/>
+                    <input id="AlturaTriangulo" type="number" placeholder="Altura"/>
+                </div>
+                <div class="card-container-button">
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Perimetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()">Area</button>
+                </div>
+            </form>
+        </section>
+        <section class="card">
+            <h2 class="card-title">Circulo</h2>
+            <form class="card-form">
+                <div class="card-container-input">
+                    <label form="InputCirculo">Escribe cuanto mide el radio del circulo:</label>
+                    <input id="InputCirculo" type="number" placeholder="Radio"/>
+                </div>
+                <div class="card-container-button">
+                    <button type="button" onclick="calcularPerimetroCirculo()">Perimetro</button>
+                    <button type="button" onclick="calcularAreaCirculo()">Area</button>
+                </div>
+            </form>
+        </section>
+    <div>
     
+
+
+
     <script src="./figura.js"></script>
 </body>
 </html>
