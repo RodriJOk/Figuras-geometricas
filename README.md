@@ -1,4 +1,6 @@
-# Figuras Geometricas
+# Taller de Javascript 💛
+
+## Figuras geometricas 
 
 - Primer paso: Definir las formulas 
 - Segundo paso: Implementar las formulas en Javascript
